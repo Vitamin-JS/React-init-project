@@ -12,10 +12,9 @@
 ## 3   Установка зависимостей
 
    Установить в проект следующие пакеты.
-
-    ```bash
-    npm install --save-dev prettier husky lint-staged
-    ```
+  ```bash
+   npm install --save-dev prettier husky lint-staged
+  ```
 
    ## Интерграция плагинов .huskyrc и .lintstagedrc
 
@@ -46,6 +45,9 @@
        `@import-normalize;`  в файл index.css  или App.css  
    - Внешняя нормализация   `npm install modern-normalize`  от  https://github.com/sindresorhus/modern-normalize
        `import 'modern-normalize/modern-normalize.css';`  в файл index.js
+       
+ ## 5 Установка Prop-Types
+   - `npm install --save prop-types`  
 
    
     
