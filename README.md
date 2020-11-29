@@ -10,9 +10,11 @@
     
 3)   ## Нормализация стилей 1 из 2х вариантов
 
-    - Встроенная нормализация
-       `@import-normalize;`   в файл ## index.css  или App.css  
-    - Внешняя нормализация   `$ npm install modern-normalize`  от  https://github.com/sindresorhus/modern-normalize
+   - Встроенная нормализация
+       `@import-normalize;`  в файл index.css  или App.css  
+   - Внешняя нормализация   `npm install modern-normalize`  от  https://github.com/sindresorhus/modern-normalize
        `import 'modern-normalize/modern-normalize.css';`  в файл ## index.js
+
+   
     
  
