@@ -22,18 +22,18 @@
 
 код для .huskyrc
 
-        ```{
+        ``{
             "hooks": {
             "pre-commit": "lint-staged"
             }
-          }```
+          }`
         
 код для .lintstagedrc
 
-      ```  {
-         "src/**/*.{json,css,scss,md}": ["prettier --write"],
-        "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
-        } ```
+         ` {
+            "src/**/*.{json,css,scss,md}": ["prettier --write"],
+            "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
+           } `
 
 
   Ссылки на документацию по интеграции плагинов в популярные редакторы.
@@ -68,11 +68,11 @@
  ## Добавить Pretierrs
  
  ## Добавить GitHub deploy настройки в файл package.json:
-    добавить "homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",
+    добавить `"homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",`
     добавить  скрипты в объект 
-    ``` "scripts" : {
-                                    "deploy": "gh-pages -d build",
-                                    "predeploy": "npm run build"} ```
+     "scripts" : {
+        "deploy": "gh-pages -d build",
+        "predeploy": "npm run build"} `
    
     
  
