@@ -22,7 +22,7 @@
 
 код для .huskyrc
 
-        ``{
+        `{
             "hooks": {
             "pre-commit": "lint-staged"
             }
@@ -30,10 +30,10 @@
         
 код для .lintstagedrc
 
-         ` {
+         `{
             "src/**/*.{json,css,scss,md}": ["prettier --write"],
             "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
-           } `
+           }`
 
 
   Ссылки на документацию по интеграции плагинов в популярные редакторы.
@@ -45,15 +45,14 @@
 Для комфортной работы, после установки плагинов, нужно добавить несколько
 настроек редактора в Settings VSCode для автосохранения и форматирования файлов.
 
-    ```json
+    `json
     {
       "files.autoSave": "onFocusChange",
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
       }
-    }
-    ```
+    }`
     
 ## 4   Нормализация стилей 1 из 2х вариантов
 
@@ -68,11 +67,11 @@
  ## Добавить Pretierrs
  
  ## Добавить GitHub deploy настройки в файл package.json:
-    добавить `"homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",`
+    добавить  `"homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",`
     добавить  скрипты в объект 
-     "scripts" : {
+     `"scripts" : {
         "deploy": "gh-pages -d build",
-        "predeploy": "npm run build"} `
+        "predeploy": "npm run build"}`
    
     
  
