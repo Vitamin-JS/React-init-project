@@ -20,6 +20,20 @@
 
    Добавить в корень проекта фалы .huskyrc и .lintstagedrc с кодом настроек внутри (скопировать)
 
+код для .huskyrc
+        {
+          "hooks": {
+            "pre-commit": "lint-staged"
+          }
+        }
+        
+код для .lintstagedrc
+        {
+         "src/**/*.{json,css,scss,md}": ["prettier --write"],
+        "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
+        }
+
+
   Ссылки на документацию по интеграции плагинов в популярные редакторы.
   - [Prettier editor integration](https://prettier.io/docs/en/editors.html)
   - [ESLint editor integration](https://eslint.org/docs/user-guide/integrations)
