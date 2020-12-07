@@ -21,6 +21,7 @@
    Добавить в корень проекта фалы .huskyrc и .lintstagedrc с кодом настроек внутри (скопировать)
 
 код для .huskyrc
+
         ```{
             "hooks": {
             "pre-commit": "lint-staged"
@@ -28,6 +29,7 @@
           }```
         
 код для .lintstagedrc
+
       ```  {
          "src/**/*.{json,css,scss,md}": ["prettier --write"],
         "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
@@ -67,7 +69,8 @@
  
  ## Добавить GitHub deploy настройки в файл package.json:
     добавить "homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",
-    добавить  скрипты в объект ``` "scripts" : {
+    добавить  скрипты в объект 
+    ``` "scripts" : {
                                     "deploy": "gh-pages -d build",
                                     "predeploy": "npm run build"} ```
    
