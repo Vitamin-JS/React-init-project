@@ -2,16 +2,16 @@
 
 ## 1  В пустой папке клонированного репозитория инициализировать React
 
-  `npx create-react-app my-app .`
+     `npx create-react-app my-app .`
 
-    -  Начало разработки `npm start`  
-    -  Билд проекта  `npm run build`
+-  Начало разработки   `npm start`  
+-  Билд проекта  `npm run build`
     
     
 ## 2   В файл index.js автоматически при инициализации импортируеется:
-    - `import React from 'react';`   не нужно импортировать в компоненты
-    - `import ReactDOM from 'react-dom';`
-    - `import './index.css';`
+  - `import React from 'react';`   не нужно импортировать в компоненты
+  - `import ReactDOM from 'react-dom';`
+  - `import './index.css';`
     
 ## 3   Установка зависимостей
 
@@ -71,8 +71,8 @@
  ## Добавить Pretierrs
  
  ## Добавить GitHub deploy настройки в файл package.json:
-    добавить  `"homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",`
-    добавить  скрипты в объект 
+   добавить  `"homepage": "https://Vitamin-JS.github.io/goit-react-hw-02-components",`
+   добавить  скрипты в объект 
      `"scripts" : {
         "deploy": "gh-pages -d build",
         "predeploy": "npm run build"}`
