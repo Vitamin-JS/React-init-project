@@ -2,7 +2,7 @@
 
 ## 1  В пустой папке клонированного репозитория инициализировать React
 
-     `npx create-react-app my-app .`
+     `npx create-react-app my-app .`  или попробовать `npx create-react-app .`
 
 -  Начало разработки   `npm start`  
 -  Билд проекта  `npm run build`
